@@ -3,7 +3,9 @@ Graph data structure with weight library for Nim
 
 Examples
 ===
-```var G:SimpleGraph[int] = SimpleGraph[int]()
+```nim
+import weighted_graph
+var G:SimpleGraph[int] = SimpleGraph[int]()
 G.initGraph()
 G.addNode(0)
 G.addNode(1)
